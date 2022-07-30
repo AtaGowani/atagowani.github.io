@@ -5,13 +5,15 @@
 
 <script>
 import Home from "./components/Home.vue";
-import AboutPage from "./components/AboutPage.vue";
 import NotFound from "./components/NotFound.vue";
 import NavBar from "./components/NavBar.vue";
+import LibraryPage from "./components/LibraryPage.vue";
+import BlogPage from "./components/BlogPage.vue";
 
 const routes = {
   "/": Home,
-  "/about": AboutPage,
+  "/blog": BlogPage,
+  "/library": LibraryPage,
 };
 
 export default {

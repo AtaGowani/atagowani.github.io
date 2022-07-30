@@ -14,6 +14,7 @@
       <a href="https://www.youtube.com/channel/UCOAwZEh0hSnFd9cJzCPJV1g"
         ><i class="bi bi-youtube"></i
       ></a>
+      <a href="mailto:me@atagowani.com"><i class="bi bi-envelope-fill"></i></a>
     </div>
   </div>
 </template>
@@ -26,7 +27,14 @@ export default {
   },
   methods: {
     rollingDescriptions: function () {
-      let descriptions = ["a poet", "a musician", "a tinkerer", "an investor"];
+      let descriptions = [
+        "a software engineer",
+        "a poet",
+        "a musician",
+        "a tinkerer",
+        "an investor",
+        "a cat dad",
+      ];
       let personal_desc_span = document.getElementsByClassName(
         "personal-description"
       )[0];
