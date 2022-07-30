@@ -1,8 +1,13 @@
 <template>
   <div class="vertical-center text-left">
+    <img
+      src="../assets/profile.png"
+      alt="Ata Gowani Profile"
+      class="profile rounded-circle"
+    />
     <h1>
       hi, my name is Ata. i am
-      <span class="personal-description"> a software engineer</span>.
+      <span class="personal-description"> an engineer</span>.
     </h1>
     <p class="lead">i'm currently working @ HubSpot under product security.</p>
     <div class="socials">
@@ -28,7 +33,7 @@ export default {
   methods: {
     rollingDescriptions: function () {
       let descriptions = [
-        "a software engineer",
+        "an engineer",
         "a poet",
         "a musician",
         "a tinkerer",
@@ -62,13 +67,18 @@ export default {
 </script>
 
 <style scoped>
+.profile {
+  height: 6rem;
+  margin-bottom: 1rem;
+}
+
 h3 {
   margin: 40px 0 0;
 }
 
 .vertical-center {
   width: 100%;
-  margin-top: 30%;
+  margin-top: 5%;
   padding: 2rem;
 }
 
@@ -80,31 +90,31 @@ h3 {
 /* Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) {
   .vertical-center {
-    margin-top: 25%;
+    margin-top: 8%;
   }
 }
 
 /* Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) {
   .vertical-center {
-    margin-top: 20%;
+    margin-top: 10%;
+  }
+
+  .profile {
+    height: 8rem;
   }
 }
 
 /* Large devices (desktops, 992px and up) */
 @media (min-width: 992px) {
   .vertical-center {
-    margin-top: 18%;
+    margin-top: 5%;
     padding-left: 3rem;
   }
 }
 
 /* X-Large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) {
-  .vertical-center {
-    margin-top: 18%;
-  }
-
   .socials i {
     font-size: 1.5rem;
   }
@@ -113,7 +123,7 @@ h3 {
 /* XX-Large devices (larger desktops, 1400px and up) */
 @media (min-width: 1400px) {
   .vertical-center {
-    margin-top: 13%;
+    margin-top: 4%;
   }
 }
 </style>
