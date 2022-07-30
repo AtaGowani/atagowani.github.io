@@ -7,7 +7,7 @@
     />
     <h1>
       hi, my name is Ata. i am
-      <span class="personal-description"> an engineer</span>.
+      <span class="personal-description">an engineer</span>.
     </h1>
     <p class="lead">i'm currently working @ HubSpot under product security.</p>
     <div class="socials">
@@ -43,16 +43,12 @@ export default {
       let personal_desc_span = document.getElementsByClassName(
         "personal-description"
       )[0];
-      let curr_desc = personal_desc_span.innerHTML;
-      let new_desc =
-        descriptions[Math.floor(Math.random() * descriptions.length)];
+      let curr_desc_i = descriptions.findIndex(
+        (desc) => desc == personal_desc_span.innerHTML
+      );
+      let new_desc_i = (curr_desc_i + 1) % descriptions.length;
 
-      while (curr_desc == new_desc) {
-        new_desc =
-          descriptions[Math.floor(Math.random() * descriptions.length)];
-      }
-
-      personal_desc_span.innerHTML = new_desc;
+      personal_desc_span.innerHTML = descriptions[new_desc_i];
     },
   },
   mounted: function () {
