@@ -20,6 +20,9 @@ mv dist/* ./
 # remove dist
 rm -r dist
 
+# Add CNAME
+echo atagowani.com > CNAME
+
 # add, commit, and push to GitHub
 git add .
 git commit -m "prod update by script"
