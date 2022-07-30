@@ -51,7 +51,7 @@ export default {
     },
   },
   mounted: function () {
-    setInterval(this.rollingDescriptions, 4000);
+    setInterval(this.rollingDescriptions, 2500);
   },
   unmounted: function () {
     for (let i = 0; i < 1000; i++) {
