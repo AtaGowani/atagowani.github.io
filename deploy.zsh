@@ -21,10 +21,7 @@ mv dist/* ./
 rm -r dist
 
 # Add CNAME
-# echo atagowani.com > CNAME
-
-# Add README
-echo "atagowani.com hosted website" >> README.md
+echo atagowani.com > CNAME
 
 # add, commit, and push to GitHub
 git add .
