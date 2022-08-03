@@ -32,7 +32,7 @@
 .line {
   width: 30px;
   height: 3px;
-  background-color: #defbc2;
+  background-color: #e1d89f;
   display: block;
   margin: 6px auto;
 }

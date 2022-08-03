@@ -9,11 +9,13 @@ import NotFound from "./components/NotFound.vue";
 import NavBar from "./components/NavBar.vue";
 import LibraryPage from "./components/LibraryPage.vue";
 import BlogPage from "./components/BlogPage.vue";
+import BlogContentPage1 from "./components/BlogContentPage1.vue";
 
 const routes = {
   "/": Home,
   "/blog": BlogPage,
   "/library": LibraryPage,
+  "/blog/1": BlogContentPage1,
 };
 
 export default {
@@ -25,6 +27,11 @@ export default {
   computed: {
     currentView() {
       return routes[this.currentPath.slice(1) || "/"] || NotFound;
+    },
+    data() {
+      return {
+        id: 1,
+      };
     },
   },
   mounted() {
@@ -41,11 +48,16 @@ export default {
 <style>
 @import url("https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,500;0,600;0,700;1,400&family=Poppins:wght@100;200;300;400;700;900&display=swap");
 
+* {
+  padding: 0;
+  margin: 0;
+}
+
 body {
   font-family: "Lora", serif;
   text-align: center;
-  color: #defbc2 !important;
-  background: #342b2b;
+  color: #e1d89f !important;
+  background: #2c061f;
 }
 
 h1 {
@@ -54,7 +66,7 @@ h1 {
 }
 
 a {
-  color: #defbc2;
+  color: #e1d89f;
 }
 
 a:hover {
