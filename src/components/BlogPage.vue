@@ -1,7 +1,7 @@
 <template>
   <div class="text-left ml-5 mb-5 mt-3">
     <h1>my blog</h1>
-    <p class="lead">some of the thoughts i've entertained</p>
+    <p class="lead">thoughts i've entertained</p>
   </div>
   <div class="d-flex flex-row flex-wrap books justify-content-left">
     <BlogCard

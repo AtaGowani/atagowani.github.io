@@ -1,9 +1,15 @@
 <template>
   <div class="text-left ml-5 mb-5 mt-3">
     <h1>my library</h1>
-    <p class="lead">some of the books i've enjoyed reading</p>
+    <p class="lead">books i've enjoyed reading</p>
   </div>
   <div class="d-flex flex-row flex-wrap books justify-content-center">
+    <div class="col-12 col-sm-4 col-lg-2 text-center">
+      <img
+        src="../../src/assets/books/rich_dad_poor_dad.jpeg"
+        alt="Rich Dad, Poor Dad"
+      />
+    </div>
     <div class="col-12 col-sm-4 col-lg-2 text-center">
       <img src="../../src/assets/books/1984.webp" alt="1984" />
     </div>
