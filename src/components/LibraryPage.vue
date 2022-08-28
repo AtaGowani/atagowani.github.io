@@ -6,6 +6,12 @@
   <div class="d-flex flex-row flex-wrap books justify-content-center">
     <div class="col-12 col-sm-4 col-lg-2 text-center">
       <img
+        src="../../src/assets/books/pragmatic-programmer.jpeg"
+        alt="Pragmatic Programmer"
+      />
+    </div>
+    <div class="col-12 col-sm-4 col-lg-2 text-center">
+      <img
         src="../../src/assets/books/rich_dad_poor_dad.jpeg"
         alt="Rich Dad, Poor Dad"
       />
