@@ -1,7 +1,7 @@
 <template>
   <div class="vertical-center text-left">
     <img
-      src="../assets/profile.png"
+      src="../assets/profile-min.png"
       alt="Ata Gowani Profile"
       class="profile rounded-circle"
     />
