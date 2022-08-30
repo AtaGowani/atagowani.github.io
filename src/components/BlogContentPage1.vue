@@ -1,6 +1,6 @@
 <template>
   <div class="text-left ml-5 mb-5 mt-3">
-    <h1>if Python == None: Python = Learn</h1>
+    <h1 class="my-3">if Python == None: Python = Learn</h1>
     <p>
       I have embarked on a journey of learning Python and HTML/CSS. Before I get
       into more details, I would like to take a moment and apologize if the

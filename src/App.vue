@@ -9,13 +9,17 @@ import NotFound from "./components/NotFound.vue";
 import NavBar from "./components/NavBar.vue";
 import LibraryPage from "./components/LibraryPage.vue";
 import BlogPage from "./components/BlogPage.vue";
+import PoetryPage from "./components/PoetryPage.vue";
 import BlogContentPage1 from "./components/BlogContentPage1.vue";
+import PoetryContentPage1 from "./components/PoetryContentPage1 .vue";
 
 const routes = {
   "/": Home,
   "/blog": BlogPage,
+  "/poetry": PoetryPage,
   "/library": LibraryPage,
   "/blog/1": BlogContentPage1,
+  "/poetry/1": PoetryContentPage1,
 };
 
 export default {
@@ -46,7 +50,7 @@ export default {
 </script>
 
 <style>
-@import url("https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,500;0,600;0,700;1,400&family=Poppins:wght@100;200;300;400;700;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,500;0,600;0,700;1,400&family=Poppins:wght@100;200;300;400;700;900&family=Caveat&display=swap");
 
 * {
   padding: 0;
@@ -60,8 +64,18 @@ body {
   background: #2c061f;
 }
 
+.poetry-preview {
+  font-family: "Caveat", cursive;
+  font-size: 1rem;
+}
+
+.poetry {
+  font-family: "Caveat", cursive;
+  font-size: 1rem;
+}
+
 h1 {
-  font-size: 2rem;
+  font-size: 1.8rem;
   font-weight: 700;
 }
 
@@ -82,12 +96,23 @@ h4 {
 
 /* Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) {
+  .poetry {
+    font-size: 1.2rem;
+  }
 }
 
 /* Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) {
   h1 {
     font-size: 2.3rem;
+  }
+
+  .poetry {
+    font-size: 1.8rem;
+  }
+
+  .poetry-preview {
+    font-size: 1.5rem;
   }
 }
 

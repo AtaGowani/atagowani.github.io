@@ -21,6 +21,9 @@
           <a class="nav-link" href="#/blog">blog</a>
         </li>
         <li class="nav-item">
+          <a class="nav-link" href="#/poetry">poetry</a>
+        </li>
+        <li class="nav-item">
           <a class="nav-link" href="#/library">library</a>
         </li>
       </ul>
