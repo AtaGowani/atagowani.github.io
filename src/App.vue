@@ -66,12 +66,12 @@ body {
 
 .poetry-preview {
   font-family: "Caveat", cursive;
-  font-size: 1rem;
+  font-size: 1.3rem;
 }
 
 .poetry {
   font-family: "Caveat", cursive;
-  font-size: 1rem;
+  font-size: 1.3rem;
 }
 
 h1 {
@@ -97,7 +97,7 @@ h4 {
 /* Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) {
   .poetry {
-    font-size: 1.2rem;
+    font-size: 1.4rem;
   }
 }
 
@@ -108,11 +108,11 @@ h4 {
   }
 
   .poetry {
-    font-size: 1.8rem;
+    font-size: 1.9rem;
   }
 
   .poetry-preview {
-    font-size: 1.5rem;
+    font-size: 1.6rem;
   }
 }
 
