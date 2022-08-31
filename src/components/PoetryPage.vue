@@ -6,7 +6,7 @@
   <div class="d-flex flex-row flex-wrap books justify-content-left">
     <PoetryCard
       title="A Stranger I Met"
-      preview="this one is about the stranger i met"
+      preview="this one is about a stranger i met"
       link-id="/#/poetry/1"
     ></PoetryCard>
   </div>
