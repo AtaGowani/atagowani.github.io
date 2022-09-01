@@ -5,6 +5,11 @@
   </div>
   <div class="d-flex flex-row flex-wrap books justify-content-left">
     <PoetryCard
+      title="Jab ek dost seh mila"
+      preview="this one is about the time i met a dear friend"
+      link-id="/#/poetry/2"
+    ></PoetryCard>
+    <PoetryCard
       title="A Stranger I Met"
       preview="this one is about a stranger i met"
       link-id="/#/poetry/1"

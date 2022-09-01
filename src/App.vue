@@ -13,7 +13,8 @@ import PoetryPage from "./components/PoetryPage.vue";
 import BlogContentPage1 from "./components/BlogContentPage1.vue";
 import BlogContentPage2 from "./components/BlogContentPage2.vue";
 import BlogContentPage3 from "./components/BlogContentPage3.vue";
-import PoetryContentPage1 from "./components/PoetryContentPage1 .vue";
+import PoetryContentPage1 from "./components/PoetryContentPage1.vue";
+import PoetryContentPage2 from "./components/PoetryContentPage2.vue";
 
 const routes = {
   "/": Home,
@@ -24,6 +25,7 @@ const routes = {
   "/blog/2": BlogContentPage2,
   "/blog/3": BlogContentPage3,
   "/poetry/1": PoetryContentPage1,
+  "/poetry/2": PoetryContentPage2,
 };
 
 export default {
