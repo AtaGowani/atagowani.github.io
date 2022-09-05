@@ -6,13 +6,13 @@
   <div class="d-flex flex-row flex-wrap books justify-content-left">
     <PoetryCard
       title="Jab ek dost seh mila"
-      lang="English"
+      lang="Roman Urdu"
       preview="This one is about the time I met a dear friend."
       link-id="/#/poetry/2"
     ></PoetryCard>
     <PoetryCard
       title="A Stranger I Met"
-      lang="Roman Urdu"
+      lang="English"
       preview="This one is about a stranger I met."
       link-id="/#/poetry/1"
     ></PoetryCard>
