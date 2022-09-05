@@ -1,17 +1,19 @@
 <template>
   <div class="text-left ml-5 mb-5 mt-3">
-    <h1>my poetry</h1>
-    <p class="lead">poetry i've expressed</p>
+    <h1>Poetry</h1>
+    <h6 class="lead">Poetry I've expressed</h6>
   </div>
   <div class="d-flex flex-row flex-wrap books justify-content-left">
     <PoetryCard
       title="Jab ek dost seh mila"
-      preview="this one is about the time i met a dear friend"
+      lang="English"
+      preview="This one is about the time I met a dear friend."
       link-id="/#/poetry/2"
     ></PoetryCard>
     <PoetryCard
       title="A Stranger I Met"
-      preview="this one is about a stranger i met"
+      lang="Roman Urdu"
+      preview="This one is about a stranger I met."
       link-id="/#/poetry/1"
     ></PoetryCard>
   </div>

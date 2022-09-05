@@ -56,23 +56,33 @@ export default {
 </script>
 
 <style>
-@import url("https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,500;0,600;0,700;1,400&family=Poppins:wght@100;200;300;400;700;900&family=Caveat&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,500;0,600;0,700;1,400&family=Poppins:wght@100;200;300;400;700;900&family=Caveat&family=Roboto:wght@100;300;400&display=swap");
 
 * {
   padding: 0;
   margin: 0;
 }
 
+.card-text {
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  font-size: 1rem;
+}
+
+.card-subtitle {
+  font-family: "Roboto", sans-serif;
+}
+
+.card-title {
+  margin-bottom: 0.6rem;
+  padding: 0;
+}
+
 body {
-  font-family: "Lora", serif;
+  font-family: "Roboto", sans-serif;
   text-align: center;
   color: #e1d89f !important;
   background: #2c061f;
-}
-
-.poetry-preview {
-  font-family: "Caveat", cursive;
-  font-size: 1.3rem;
 }
 
 .poetry {
@@ -81,6 +91,7 @@ body {
 }
 
 h1 {
+  font-family: "Poppins", sans-serif;
   font-size: 1.8rem;
   font-weight: 700;
 }
@@ -93,11 +104,12 @@ a:hover {
   color: #90d26d;
 }
 
-h1,
 h2,
 h3,
-h4 {
-  font-family: "Poppins", sans-serif;
+h4,
+h5,
+h6 {
+  font-family: "Lora", serif;
 }
 
 /* Small devices (landscape phones, 576px and up) */
@@ -115,10 +127,6 @@ h4 {
 
   .poetry {
     font-size: 1.9rem;
-  }
-
-  .poetry-preview {
-    font-size: 1.6rem;
   }
 }
 

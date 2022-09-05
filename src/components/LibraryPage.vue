@@ -1,7 +1,7 @@
 <template>
   <div class="text-left ml-5 mb-5 mt-3">
-    <h1>my library</h1>
-    <p class="lead">books i've enjoyed reading</p>
+    <h1>Library</h1>
+    <h6 class="lead">Books I've enjoyed reading</h6>
   </div>
   <div class="d-flex flex-row flex-wrap books justify-content-center">
     <div class="col-12 col-sm-4 col-lg-2 text-center">

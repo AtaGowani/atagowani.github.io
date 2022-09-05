@@ -2,6 +2,7 @@
 export default {
   props: {
     title: String,
+    lang: String,
     preview: String,
     linkId: Number,
   },
@@ -15,10 +16,47 @@ export default {
         <a :href="linkId">
           <h5 class="card-title">{{ title }}</h5>
         </a>
-        <p class="card-text poetry-preview">
+        <p class="card-subtitle text-muted">Written in {{ lang }}</p>
+        <p class="card-text">
           {{ preview }}
         </p>
       </div>
     </div>
   </div>
 </template>
+
+<style>
+.poetry-lang {
+  font-family: "Roboto", sans-serif;
+  font-size: 0.8rem;
+  margin: 0;
+  padding: 0;
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+  .poetry-preview {
+    font-size: 1.1rem;
+  }
+
+  .poetry-lang {
+    font-size: 0.9rem;
+  }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+}
+
+/* X-Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+}
+
+/* XX-Large devices (larger desktops, 1400px and up) */
+@media (min-width: 1400px) {
+}
+</style>

@@ -6,10 +6,12 @@
       class="profile rounded-circle"
     />
     <h1>
-      hi, my name is Ata. i am
+      Hi, my name is Ata. I am
       <span class="personal-description">an engineer</span>.
     </h1>
-    <p class="lead">i'm currently working @ HubSpot under product security.</p>
+    <h6 class="lead">
+      I'm currently working @ HubSpot under product security.
+    </h6>
     <div class="socials">
       <a href="https://github.com/AtaGowani"><i class="bi bi-github"></i></a>
       <a href="https://www.linkedin.com/in/atagowani/"
