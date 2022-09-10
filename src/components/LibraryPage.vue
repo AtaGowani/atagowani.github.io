@@ -12,6 +12,12 @@
     </div>
     <div class="col-12 col-sm-4 col-lg-2 text-center">
       <img
+        src="../../src/assets/books/dot_con.webp"
+        alt="Pragmatic Programmer"
+      />
+    </div>
+    <div class="col-12 col-sm-4 col-lg-2 text-center">
+      <img
         src="../../src/assets/books/rich_dad_poor_dad.jpeg"
         alt="Rich Dad, Poor Dad"
       />
