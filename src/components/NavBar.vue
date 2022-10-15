@@ -1,6 +1,6 @@
 <template>
   <nav class="navbar navbar-expand-lg">
-    <a class="navbar-brand" href="#">A.G.</a>
+    <router-link class="navbar-brand" to="/">A.G.</router-link>
     <button
       class="navbar-toggler"
       type="button"
@@ -18,13 +18,13 @@
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <ul class="navbar-nav ml-auto">
         <li class="nav-item">
-          <a class="nav-link" href="#/blog">blog</a>
+          <router-link class="nav-link" to="/blog">blog</router-link>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#/poetry">poetry</a>
+          <router-link class="nav-link" to="/poetry">poetry</router-link>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#/library">library</a>
+          <router-link class="nav-link" to="/library">library</router-link>
         </li>
       </ul>
     </div>

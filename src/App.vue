@@ -1,54 +1,31 @@
 <template>
   <NavBar></NavBar>
-  <component :is="currentView" />
+  <router-view />
+  <!-- <component :is="currentView" /> -->
 </template>
 
 <script>
-import Home from "./components/Home.vue";
-import NotFound from "./components/NotFound.vue";
+// import Home from "./components/Home.vue";
+// import NotFound from "./components/NotFound.vue";
 import NavBar from "./components/NavBar.vue";
-import LibraryPage from "./components/LibraryPage.vue";
-import BlogPage from "./components/BlogPage.vue";
-import PoetryPage from "./components/PoetryPage.vue";
-import BlogContentPage1 from "./components/BlogContentPage1.vue";
-import BlogContentPage2 from "./components/BlogContentPage2.vue";
-import BlogContentPage3 from "./components/BlogContentPage3.vue";
-import PoetryContentPage1 from "./components/PoetryContentPage1.vue";
-import PoetryContentPage2 from "./components/PoetryContentPage2.vue";
+// import LibraryPage from "./components/LibraryPage.vue";
+// import BlogPage from "./components/BlogPage.vue";
+// import PoetryPage from "./components/PoetryPage.vue";
+// import BlogContentPage from "./components/BlogContentPage.vue";
+// import PoetryContentPage1 from "./components/PoetryContentPage1.vue";
+// import PoetryContentPage2 from "./components/PoetryContentPage2.vue";
 
-const routes = {
-  "/": Home,
-  "/blog": BlogPage,
-  "/poetry": PoetryPage,
-  "/library": LibraryPage,
-  "/blog/1": BlogContentPage1,
-  "/blog/2": BlogContentPage2,
-  "/blog/3": BlogContentPage3,
-  "/poetry/1": PoetryContentPage1,
-  "/poetry/2": PoetryContentPage2,
-};
+// const routes = {
+//   "/": Home,
+//   "/blog": BlogPage,
+//   "/poetry": PoetryPage,
+//   "/library": LibraryPage,
+//   "/blog/:id": BlogContentPage,
+//   "/poetry/1": PoetryContentPage1,
+//   "/poetry/2": PoetryContentPage2,
+// };
 
 export default {
-  data() {
-    return {
-      currentPath: window.location.hash,
-    };
-  },
-  computed: {
-    currentView() {
-      return routes[this.currentPath.slice(1) || "/"] || NotFound;
-    },
-    data() {
-      return {
-        id: 1,
-      };
-    },
-  },
-  mounted() {
-    window.addEventListener("hashchange", () => {
-      this.currentPath = window.location.hash;
-    });
-  },
   components: {
     NavBar,
   },
