@@ -1,29 +1,32 @@
-<script>
-export default {
-  props: {
-    title: String,
-    lang: String,
-    preview: String,
-    linkId: Number,
-  },
-};
-</script>
-
 <template>
   <div class="col-12 col-lg-4 text-left">
     <div class="card">
       <div class="card-body">
-        <a :href="linkId">
-          <h5 class="card-title">{{ title }}</h5>
-        </a>
-        <p class="card-subtitle text-muted">Written in {{ lang }}</p>
+        <router-link :to="getURL()">
+          <h5 class="card-title">{{ poetry.title }}</h5>
+        </router-link>
+        <p class="card-subtitle text-muted">Written in {{ poetry.language }}</p>
         <p class="card-text">
-          {{ preview }}
+          {{ poetry.description }}
         </p>
       </div>
     </div>
   </div>
 </template>
+
+<script>
+export default {
+  props: {
+    poetry: Object,
+    id: Number,
+  },
+  methods: {
+    getURL: function () {
+      return "/poetry/" + this.id;
+    },
+  },
+};
+</script>
 
 <style>
 .poetry-lang {

@@ -5,6 +5,7 @@ import BlogPage from '@/components/BlogPage.vue';
 import PoetryPage from '@/components/PoetryPage.vue';
 import LibraryPage from '@/components/LibraryPage.vue';
 import BlogContentPage from '@/components/BlogContentPage.vue';
+import PoetryContentPage from '@/components/PoetryContentPage.vue';
 
 const routes = [
   {
@@ -23,6 +24,10 @@ const routes = [
     path: '/poetry',
     name: 'Poetry',
     component: PoetryPage,
+  }, {
+    path: '/poetry/:id',
+    name: 'PoetryContent',
+    component: PoetryContentPage,
   }, {
     path: '/library',
     name: 'Library',

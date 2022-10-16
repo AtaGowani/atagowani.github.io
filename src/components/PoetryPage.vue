@@ -5,6 +5,13 @@
   </div>
   <div class="d-flex flex-row flex-wrap books justify-content-left">
     <PoetryCard
+      v-for="(p, index) in poetry"
+      :poetry="p"
+      :id="index"
+      :key="index"
+    >
+    </PoetryCard>
+    <!-- <PoetryCard
       title="Jab ek dost seh mila"
       lang="Roman Urdu"
       preview="This one is about the time I met a dear friend."
@@ -15,9 +22,26 @@
       lang="English"
       preview="This one is about a stranger I met."
       link-id="/#/poetry/1"
-    ></PoetryCard>
+    ></PoetryCard> -->
   </div>
 </template>
+
+<script>
+import PoetryCard from "./PoetryCard.vue";
+import poetry from "../data/poetry";
+
+export default {
+  name: "PoetryPage",
+  data() {
+    return {
+      poetry: poetry.slice().reverse(),
+    };
+  },
+  components: {
+    PoetryCard,
+  },
+};
+</script>
 
 <style>
 .card {
@@ -35,13 +59,3 @@
 }
 </style>
 
-<script>
-import PoetryCard from "./PoetryCard.vue";
-
-export default {
-  name: "PoetryPage",
-  components: {
-    PoetryCard,
-  },
-};
-</script>

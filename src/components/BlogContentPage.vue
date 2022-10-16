@@ -11,7 +11,7 @@
 import blogs from "../data/blogs";
 
 export default {
-  name: "BlogContent",
+  name: "BlogContentPage",
   data() {
     return {
       blogs: blogs.slice().reverse(),
