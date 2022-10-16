@@ -5,7 +5,7 @@
         <h5 class="card-title">{{ blog.title }}</h5>
         <h6 class="card-subtitle text-muted">{{ blog.date.toDateString() }}</h6>
         <p class="card-text">
-          {{ getPreview() }}
+          {{ blog.body.join(" ") }}
         </p>
         <router-link :to="getURL()" class="card-link"
           >Read More &#8594;</router-link
@@ -25,10 +25,6 @@ export default {
   methods: {
     getURL: function () {
       return "/blog/" + this.id;
-    },
-    getPreview: function () {
-      let preview_arr = this.blog.body.split(" ", 25);
-      return preview_arr.join(" ") + "...";
     },
   },
 };
