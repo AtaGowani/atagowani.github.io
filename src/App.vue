@@ -1,29 +1,10 @@
 <template>
   <NavBar></NavBar>
   <router-view />
-  <!-- <component :is="currentView" /> -->
 </template>
 
 <script>
-// import Home from "./components/Home.vue";
-// import NotFound from "./components/NotFound.vue";
 import NavBar from "./components/NavBar.vue";
-// import LibraryPage from "./components/LibraryPage.vue";
-// import BlogPage from "./components/BlogPage.vue";
-// import PoetryPage from "./components/PoetryPage.vue";
-// import BlogContentPage from "./components/BlogContentPage.vue";
-// import PoetryContentPage1 from "./components/PoetryContentPage1.vue";
-// import PoetryContentPage2 from "./components/PoetryContentPage2.vue";
-
-// const routes = {
-//   "/": Home,
-//   "/blog": BlogPage,
-//   "/poetry": PoetryPage,
-//   "/library": LibraryPage,
-//   "/blog/:id": BlogContentPage,
-//   "/poetry/1": PoetryContentPage1,
-//   "/poetry/2": PoetryContentPage2,
-// };
 
 export default {
   components: {
