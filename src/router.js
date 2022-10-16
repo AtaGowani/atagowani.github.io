@@ -6,6 +6,7 @@ import PoetryPage from '@/components/PoetryPage.vue';
 import LibraryPage from '@/components/LibraryPage.vue';
 import BlogContentPage from '@/components/BlogContentPage.vue';
 import PoetryContentPage from '@/components/PoetryContentPage.vue';
+import AlbumPage from '@/components/AlbumPage.vue';
 
 const routes = [
   {
@@ -32,6 +33,10 @@ const routes = [
     path: '/library',
     name: 'Library',
     component: LibraryPage,
+  }, {
+    path: '/album',
+    name: 'Album',
+    component: AlbumPage,
   },
   { path: '/:pathMatch(.*)*', component: NotFound }
 ];

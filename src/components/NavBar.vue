@@ -24,6 +24,9 @@
           <router-link class="nav-link" to="/poetry">poetry</router-link>
         </li>
         <li class="nav-item">
+          <router-link class="nav-link" to="/album">album</router-link>
+        </li>
+        <li class="nav-item">
           <router-link class="nav-link" to="/library">library</router-link>
         </li>
       </ul>
