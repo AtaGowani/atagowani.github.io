@@ -17,7 +17,6 @@
       <a href="https://www.linkedin.com/in/atagowani/"
         ><i class="bi bi-linkedin"></i
       ></a>
-      <a href="https://twitter.com/AtaGowani"><i class="bi bi-twitter"></i></a>
       <a href="https://www.youtube.com/channel/UCOAwZEh0hSnFd9cJzCPJV1g"
         ><i class="bi bi-youtube"></i
       ></a>
