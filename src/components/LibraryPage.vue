@@ -11,10 +11,10 @@
       />
     </div>
     <div class="col-12 col-sm-4 col-lg-2 text-center">
-      <img
-        src="../../src/assets/books/dot_con.webp"
-        alt="Pragmatic Programmer"
-      />
+      <img src="../../src/assets/books/brida.jpeg" alt="Brida" />
+    </div>
+    <div class="col-12 col-sm-4 col-lg-2 text-center">
+      <img src="../../src/assets/books/dot_con.webp" alt="Dot Con" />
     </div>
     <div class="col-12 col-sm-4 col-lg-2 text-center">
       <img
