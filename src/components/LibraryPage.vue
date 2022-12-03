@@ -4,12 +4,12 @@
     <h6 class="lead">Books I've enjoyed reading</h6>
   </div>
   <div class="d-flex flex-row flex-wrap books justify-content-center">
-    <div class="col-12 col-sm-4 col-lg-2 text-center">
+    <!-- <div class="col-12 col-sm-4 col-lg-2 text-center">
       <img
         src="../../src/assets/books/pragmatic-programmer.jpeg"
         alt="Pragmatic Programmer"
       />
-    </div>
+    </div> -->
     <div class="col-12 col-sm-4 col-lg-2 text-center">
       <img src="../../src/assets/books/brida.jpeg" alt="Brida" />
     </div>
