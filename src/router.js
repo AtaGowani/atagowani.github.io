@@ -2,10 +2,8 @@ import { createWebHashHistory, createRouter } from 'vue-router';
 import NotFound from "@/components/NotFound.vue";
 import Home from '@/components/Home.vue';
 import BlogPage from '@/components/BlogPage.vue';
-import PoetryPage from '@/components/PoetryPage.vue';
 import LibraryPage from '@/components/LibraryPage.vue';
 import BlogContentPage from '@/components/BlogContentPage.vue';
-import PoetryContentPage from '@/components/PoetryContentPage.vue';
 import AlbumPage from '@/components/AlbumPage.vue';
 
 const routes = [
@@ -21,14 +19,6 @@ const routes = [
     path: '/blog/:id',
     name: 'BlogContent',
     component: BlogContentPage,
-  }, {
-    path: '/poetry',
-    name: 'Poetry',
-    component: PoetryPage,
-  }, {
-    path: '/poetry/:id',
-    name: 'PoetryContent',
-    component: PoetryContentPage,
   }, {
     path: '/library',
     name: 'Library',

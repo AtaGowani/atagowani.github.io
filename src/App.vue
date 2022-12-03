@@ -43,11 +43,6 @@ body {
   background: #2c061f;
 }
 
-.poetry {
-  font-family: "Caveat", cursive;
-  font-size: 1.3rem;
-}
-
 h1 {
   font-family: "Poppins", sans-serif;
   font-size: 1.8rem;
@@ -72,19 +67,12 @@ h6 {
 
 /* Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) {
-  .poetry {
-    font-size: 1.4rem;
-  }
 }
 
 /* Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) {
   h1 {
     font-size: 2.3rem;
-  }
-
-  .poetry {
-    font-size: 1.9rem;
   }
 }
 
