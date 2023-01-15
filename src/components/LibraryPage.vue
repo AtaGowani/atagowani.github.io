@@ -11,6 +11,9 @@
       />
     </div> -->
     <div class="col-12 col-sm-4 col-lg-2 text-center">
+      <img src="../../src/assets/books/becoming_better_grownups.jpg" alt="Becoming Better Grownups" />
+    </div>
+    <div class="col-12 col-sm-4 col-lg-2 text-center">
       <img src="../../src/assets/books/brida.jpeg" alt="Brida" />
     </div>
     <div class="col-12 col-sm-4 col-lg-2 text-center">
