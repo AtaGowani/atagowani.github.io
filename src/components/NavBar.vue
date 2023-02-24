@@ -24,9 +24,7 @@
           <router-link class="nav-link" to="/album">album</router-link>
         </li>
         <li class="nav-item">
-          <router-link class="nav-link" to="http://gowani.blog"
-            >blog</router-link
-          >
+          <a class="nav-link" href="http://gowani.blog">blog</a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="http://apoetinprogress.com/">poetry</a>
