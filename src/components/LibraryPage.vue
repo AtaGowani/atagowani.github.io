@@ -12,6 +12,12 @@
     </div> -->
     <div class="col-12 col-sm-4 col-lg-2 text-center">
       <img
+        src="../../src/assets/books/harry_potter_5.jpeg"
+        alt="Harry Potter 5"
+      />
+    </div>
+    <div class="col-12 col-sm-4 col-lg-2 text-center">
+      <img
         src="../../src/assets/books/harry_potter_4.jpeg"
         alt="Harry Potter 4"
       />
