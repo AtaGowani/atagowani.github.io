@@ -11,6 +11,9 @@
       />
     </div> -->
     <div class="col-12 col-sm-4 col-lg-2 text-center">
+      <img src="../../src/assets/books/essentialism.jpeg" alt="Essentialism" />
+    </div>
+    <div class="col-12 col-sm-4 col-lg-2 text-center">
       <img
         src="../../src/assets/books/win_friends_and_influence_people.jpeg"
         alt="Win Friends And Influence People"
