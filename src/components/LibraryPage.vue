@@ -4,44 +4,23 @@
     <h6 class="lead">Books I've enjoyed reading</h6>
   </div>
   <div class="d-flex flex-row flex-wrap books justify-content-center">
-    <!-- <div class="col-12 col-sm-4 col-lg-2 text-center">
-      <img
-        src="../../src/assets/books/pragmatic-programmer.jpeg"
-        alt="Pragmatic Programmer"
-      />
-    </div> -->
     <div class="col-12 col-sm-4 col-lg-2 text-center">
       <img src="../../src/assets/books/essentialism.jpeg" alt="Essentialism" />
     </div>
     <div class="col-12 col-sm-4 col-lg-2 text-center">
-      <img
-        src="../../src/assets/books/win_friends_and_influence_people.jpeg"
-        alt="Win Friends And Influence People"
-      />
+      <img src="../../src/assets/books/win_friends_and_influence_people.jpeg" alt="Win Friends And Influence People" />
     </div>
     <div class="col-12 col-sm-4 col-lg-2 text-center">
-      <img
-        src="../../src/assets/books/the_privacy_mission.jpeg"
-        alt="Harry Potter 5"
-      />
+      <img src="../../src/assets/books/the_privacy_mission.jpeg" alt="Harry Potter 5" />
     </div>
     <div class="col-12 col-sm-4 col-lg-2 text-center">
-      <img
-        src="../../src/assets/books/harry_potter_5.jpeg"
-        alt="Harry Potter 5"
-      />
+      <img src="../../src/assets/books/harry_potter_5.jpeg" alt="Harry Potter 5" />
     </div>
     <div class="col-12 col-sm-4 col-lg-2 text-center">
-      <img
-        src="../../src/assets/books/harry_potter_4.jpeg"
-        alt="Harry Potter 4"
-      />
+      <img src="../../src/assets/books/harry_potter_4.jpeg" alt="Harry Potter 4" />
     </div>
     <div class="col-12 col-sm-4 col-lg-2 text-center">
-      <img
-        src="../../src/assets/books/becoming_better_grownups.jpg"
-        alt="Becoming Better Grownups"
-      />
+      <img src="../../src/assets/books/becoming_better_grownups.jpg" alt="Becoming Better Grownups" />
     </div>
     <div class="col-12 col-sm-4 col-lg-2 text-center">
       <img src="../../src/assets/books/brida.jpeg" alt="Brida" />
@@ -50,109 +29,60 @@
       <img src="../../src/assets/books/dot_con.webp" alt="Dot Con" />
     </div>
     <div class="col-12 col-sm-4 col-lg-2 text-center">
-      <img
-        src="../../src/assets/books/rich_dad_poor_dad.jpeg"
-        alt="Rich Dad, Poor Dad"
-      />
+      <img src="../../src/assets/books/rich_dad_poor_dad.jpeg" alt="Rich Dad, Poor Dad" />
     </div>
     <div class="col-12 col-sm-4 col-lg-2 text-center">
       <img src="../../src/assets/books/1984.webp" alt="1984" />
     </div>
     <div class="col-12 col-sm-4 col-lg-2 text-center">
-      <img
-        src="../../src/assets/books/the_alchemist.jpeg"
-        alt="The Alchemist"
-      />
+      <img src="../../src/assets/books/the_alchemist.jpeg" alt="The Alchemist" />
     </div>
     <div class="col-12 col-sm-4 col-lg-2 text-center">
-      <img
-        src="../../src/assets/books/atomic_habits.jpeg"
-        alt="Atomic Habits"
-      />
+      <img src="../../src/assets/books/atomic_habits.jpeg" alt="Atomic Habits" />
     </div>
     <div class="col-12 col-sm-4 col-lg-2 text-center">
-      <img
-        src="../../src/assets/books/harry_potter_3.jpeg"
-        alt="Harry Potter 3"
-      />
+      <img src="../../src/assets/books/harry_potter_3.jpeg" alt="Harry Potter 3" />
     </div>
     <div class="col-12 col-sm-4 col-lg-2 text-center">
-      <img
-        src="../../src/assets/books/harry_potter_2.jpeg"
-        alt="Harry Potter 2"
-      />
+      <img src="../../src/assets/books/harry_potter_2.jpeg" alt="Harry Potter 2" />
     </div>
     <div class="col-12 col-sm-4 col-lg-2 text-center">
-      <img
-        src="../../src/assets/books/harry_potter_1.jpeg"
-        alt="Harry Potter 1"
-      />
+      <img src="../../src/assets/books/harry_potter_1.jpeg" alt="Harry Potter 1" />
     </div>
     <div class="col-12 col-sm-4 col-lg-2 text-center">
-      <img
-        src="../../src/assets/books/on_the_shortness_of_life.jpg"
-        alt="On The Shortness of Life"
-      />
+      <img src="../../src/assets/books/on_the_shortness_of_life.jpg" alt="On The Shortness of Life" />
     </div>
     <div class="col-12 col-sm-4 col-lg-2 text-center">
-      <img
-        src="../../src/assets/books/the_next_person_you_meet_in_heaven.jpeg"
-        alt="The Next Person You Meet In Heaven"
-      />
+      <img src="../../src/assets/books/the_next_person_you_meet_in_heaven.jpeg"
+        alt="The Next Person You Meet In Heaven" />
     </div>
     <div class="col-12 col-sm-4 col-lg-2 text-center">
-      <img
-        src="../../src/assets/books/forty_rules_of_love.jpeg"
-        alt="Forty Rules of Love"
-      />
+      <img src="../../src/assets/books/forty_rules_of_love.jpeg" alt="Forty Rules of Love" />
     </div>
     <div class="col-12 col-sm-4 col-lg-2 text-center">
-      <img
-        src="../../src/assets/books/tuesdays_with_morrie.jpeg"
-        alt="Tuesdays With Morrie"
-      />
+      <img src="../../src/assets/books/tuesdays_with_morrie.jpeg" alt="Tuesdays With Morrie" />
     </div>
     <div class="col-12 col-sm-4 col-lg-2 text-center">
-      <img
-        src="../../src/assets/books/the_five_people_you_meet_in_heaven.jpeg"
-        alt="The Five People You Meet In Heaven"
-      />
+      <img src="../../src/assets/books/the_five_people_you_meet_in_heaven.jpeg"
+        alt="The Five People You Meet In Heaven" />
     </div>
     <div class="col-12 col-sm-4 col-lg-2 text-center">
-      <img
-        src="../../src/assets/books/the_alchemy_of_happiness.jpeg"
-        alt="The Alchemy of Happiness"
-      />
+      <img src="../../src/assets/books/the_alchemy_of_happiness.jpeg" alt="The Alchemy of Happiness" />
     </div>
     <div class="col-12 col-sm-4 col-lg-2 text-center">
-      <img
-        src="../../src/assets/books/i_cant_make_this_up.jpeg"
-        alt="I Can't Make This Up"
-      />
+      <img src="../../src/assets/books/i_cant_make_this_up.jpeg" alt="I Can't Make This Up" />
     </div>
     <div class="col-12 col-sm-4 col-lg-2 text-center">
-      <img
-        src="../../src/assets/books/saint_anything.jpg"
-        alt="Saint Anything"
-      />
+      <img src="../../src/assets/books/saint_anything.jpg" alt="Saint Anything" />
     </div>
     <div class="col-12 col-sm-4 col-lg-2 text-center">
-      <img
-        src="../../src/assets/books/the_drunkards_walk.jpeg"
-        alt="The Drunkards Walk"
-      />
+      <img src="../../src/assets/books/the_drunkards_walk.jpeg" alt="The Drunkards Walk" />
     </div>
     <div class="col-12 col-sm-4 col-lg-2 text-center">
-      <img
-        src="../../src/assets/books/the_glass_castle.jpg"
-        alt="The Glass Castle"
-      />
+      <img src="../../src/assets/books/the_glass_castle.jpg" alt="The Glass Castle" />
     </div>
     <div class="col-12 col-sm-4 col-lg-2 text-center">
-      <img
-        src="../../src/assets/books/a_long_way_gone.jpeg"
-        alt="A Long Way Gone"
-      />
+      <img src="../../src/assets/books/a_long_way_gone.jpeg" alt="A Long Way Gone" />
     </div>
   </div>
 </template>
