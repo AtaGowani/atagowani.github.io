@@ -1,10 +1,6 @@
 <template>
   <div class="vertical-center text-left">
-    <img
-      src="../assets/profile-min.png"
-      alt="Ata Gowani Profile"
-      class="profile rounded-circle"
-    />
+    <img src="../assets/profile-min.png" alt="Ata Gowani Profile" class="profile rounded-circle" />
     <h1>
       Hi, my name is Ata. I am
       <span class="personal-description">an engineer</span>.
@@ -14,12 +10,8 @@
     </h6>
     <div class="socials">
       <a href="https://github.com/AtaGowani"><i class="bi bi-github"></i></a>
-      <a href="https://www.linkedin.com/in/atagowani/"
-        ><i class="bi bi-linkedin"></i
-      ></a>
-      <a href="https://www.youtube.com/channel/UCOAwZEh0hSnFd9cJzCPJV1g"
-        ><i class="bi bi-youtube"></i
-      ></a>
+      <a href="https://www.linkedin.com/in/atagowani/"><i class="bi bi-linkedin"></i></a>
+      <a href="https://www.youtube.com/channel/UCOAwZEh0hSnFd9cJzCPJV1g"><i class="bi bi-youtube"></i></a>
       <a href="mailto:me@atagowani.com"><i class="bi bi-envelope-fill"></i></a>
     </div>
   </div>

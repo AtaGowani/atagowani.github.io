@@ -1,14 +1,17 @@
 <template>
   <NavBar></NavBar>
   <router-view />
+  <KofiFloatingButton></KofiFloatingButton>
 </template>
 
 <script>
 import NavBar from "./components/NavBar.vue";
+import KofiFloatingButton from "./components/KofiFloatingButton.vue";
 
 export default {
   components: {
     NavBar,
+    KofiFloatingButton
   },
 };
 </script>
@@ -66,8 +69,7 @@ h6 {
 }
 
 /* Small devices (landscape phones, 576px and up) */
-@media (min-width: 576px) {
-}
+@media (min-width: 576px) {}
 
 /* Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) {
@@ -77,14 +79,11 @@ h6 {
 }
 
 /* Large devices (desktops, 992px and up) */
-@media (min-width: 992px) {
-}
+@media (min-width: 992px) {}
 
 /* X-Large devices (large desktops, 1200px and up) */
-@media (min-width: 1200px) {
-}
+@media (min-width: 1200px) {}
 
 /* XX-Large devices (larger desktops, 1400px and up) */
-@media (min-width: 1400px) {
-}
+@media (min-width: 1400px) {}
 </style>
