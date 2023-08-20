@@ -1,10 +1,6 @@
 <template>
   <div class="vertical-center text-left px-5">
-    <img
-      src="../assets/dory.png"
-      alt="Dory from Finding Dory"
-      class="not-found pb-3"
-    />
+    <img src="../assets/dory.png" alt="Dory from Finding Dory" class="not-found pb-3" />
     <h1>ERROR 404</h1>
     <p class="lead">Not all those wander are lost...but you totally are.</p>
   </div>

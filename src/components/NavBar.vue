@@ -1,15 +1,8 @@
 <template>
   <nav class="navbar navbar-expand-lg">
     <router-link class="navbar-brand" to="/">A.G.</router-link>
-    <button
-      class="navbar-toggler"
-      type="button"
-      data-toggle="collapse"
-      data-target="#navbarSupportedContent"
-      aria-controls="navbarSupportedContent"
-      aria-expanded="false"
-      aria-label="Toggle navigation"
-    >
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+      aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="line"></span>
       <span class="line"></span>
       <span class="line"></span>
