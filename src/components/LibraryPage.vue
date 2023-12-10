@@ -5,13 +5,16 @@
   </div>
   <div class="d-flex flex-row flex-wrap books justify-content-center">
     <div class="col-12 col-sm-4 col-lg-2 text-center">
+      <img src="../../src/assets/books/harry_potter_6.jpeg" alt="Harry Potter 6" />
+    </div>
+    <div class="col-12 col-sm-4 col-lg-2 text-center">
       <img src="../../src/assets/books/essentialism.jpeg" alt="Essentialism" />
     </div>
     <div class="col-12 col-sm-4 col-lg-2 text-center">
       <img src="../../src/assets/books/win_friends_and_influence_people.jpeg" alt="Win Friends And Influence People" />
     </div>
     <div class="col-12 col-sm-4 col-lg-2 text-center">
-      <img src="../../src/assets/books/the_privacy_mission.jpeg" alt="Harry Potter 5" />
+      <img src="../../src/assets/books/the_privacy_mission.jpeg" alt="The Privacy Mission" />
     </div>
     <div class="col-12 col-sm-4 col-lg-2 text-center">
       <img src="../../src/assets/books/harry_potter_5.jpeg" alt="Harry Potter 5" />
