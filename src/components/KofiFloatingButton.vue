@@ -6,11 +6,9 @@
 
 <style>
 .kofi-support-btn {
-  position: absolute;
+  position: fixed;
   bottom: 0;
   right: 0;
-  width: 10rem;
-  margin: 2rem 1rem;
   opacity: .8;
 }
 
