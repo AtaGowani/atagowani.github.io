@@ -17,11 +17,15 @@
   opacity: 1;
 }
 
+.kofi-support-btn {
+  width: 10rem;
+  margin: 2rem 1.5rem;
+}
+
 /* Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) {
   .kofi-support-btn {
     width: 13rem;
-    margin: 2rem 1.5rem;
   }
 }
 
@@ -29,7 +33,6 @@
 @media (min-width: 992px) {
   .kofi-support-btn {
     width: 14rem;
-    margin: 2rem 1.5rem;
   }
 }
 
