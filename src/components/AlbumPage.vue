@@ -1,6 +1,6 @@
 <template>
   <div class="text-left ml-5 mb-5 mt-3">
-    <h1>Ablum</h1>
+    <h1>Album</h1>
     <h6 class="lead">Pictures I have taken</h6>
   </div>
   <div class="d-flex flex-row flex-wrap album justify-content-center">
